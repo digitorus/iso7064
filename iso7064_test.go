@@ -11,6 +11,7 @@ var iso7064tests = []struct {
 	{"9845000Q555DEB9E2A69", nil},                  // LEI
 	{"9845000Q555DEB9E2A68", errIncorrectChecksum}, // Invalid LEI checksum
 	{"WEST12345698765432GB82", nil},                // IBAN
+	{"aaa", errDigitsValidation},                   // digits validation failed
 }
 
 func TestIsValid(t *testing.T) {
