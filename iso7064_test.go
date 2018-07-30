@@ -1,6 +1,7 @@
 package iso7064
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -23,4 +24,14 @@ func TestIsValid(t *testing.T) {
 			}
 		})
 	}
+}
+
+func ExampleIsValid() {
+	if IsValid("9845000Q555DEB9E2A69") != nil {
+		fmt.Println("Not Valid")
+	} else {
+		fmt.Println("Valid")
+	}
+    
+    // Output: Valid
 }
