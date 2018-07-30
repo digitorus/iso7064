@@ -31,9 +31,9 @@ We are looking for contribution to add the following functionality:
 	
 	func main() {
 		if !iso7064.IsValid("9845000Q555DEB9E2A69") {
-            fmt.Printf("%v\n", err)
-            return
-        }
+			fmt.Printf("%v\n", err)
+			return
+		}
 
-        fmt.Println("Valid ISO 7064 value")
+        	fmt.Println("Valid ISO 7064 value")
 	}
