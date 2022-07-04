@@ -32,6 +32,6 @@ func ExampleIsValid() {
 	} else {
 		fmt.Println("Valid")
 	}
-    
-    // Output: Valid
+
+	// Output: Valid
 }
