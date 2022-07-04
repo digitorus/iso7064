@@ -1,9 +1,11 @@
 ### Golang ISO 7064 validator
 
-[![Build Status](https://travis-ci.org/digitorus/iso7064.svg?branch=master)](https://travis-ci.org/digitorus/iso7064)
+[![Build & Test](https://github.com/digitorus/iso7064/workflows/Build%20&%20Test/badge.svg)](https://github.com/digitorus/iso7064/actions/workflows/go.yml)
+[![golangci-lint](https://github.com/digitorus/iso7064/workflows/golangci-lint/badge.svg)](https://github.com/digitorus/iso7064/actions/workflows/golangci-lint.yml)
+[![CodeQL](https://github.com/digitorus/iso7064/workflows/CodeQL/badge.svg)](https://github.com/digitorus/iso7064/actions/workflows/codeql-analysis.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/digitorus/iso7064)](https://goreportcard.com/report/github.com/digitorus/iso7064)
 [![Coverage Status](https://codecov.io/gh/digitorus/iso7064/branch/master/graph/badge.svg)](https://codecov.io/gh/digitorus/iso7064)
-[![GoDoc](https://godoc.org/github.com/digitorus/iso7064?status.svg)](https://godoc.org/github.com/digitorus/iso7064)
+[![Go Reference](https://pkg.go.dev/badge/github.com/digitorus/iso7064.svg)](https://pkg.go.dev/github.com/digitorus/iso7064)
 
 
 This package providers a validtor for the ISO 7064 format like IBAN, ISTC, ISNI, LEI, etc.
